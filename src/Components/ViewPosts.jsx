@@ -10,7 +10,7 @@ const ViewPosts = () => {
                 changeData(response.data)
             }
         ).catch().finally()
-    }
+    }   
     useEffect(() => {
         fetchData()
     }, [])
